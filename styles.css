@@ -1,0 +1,132 @@
+
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: bisque;
+    margin: 0;
+    padding: 40px 0;
+    color: #333333;
+}
+
+h1 {
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: #1a202c;
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+
+.form-container {
+    max-width: 460px;
+    margin: 0 auto;
+    padding: 32px;
+    background-color: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #4a5568;
+}
+
+
+input[type="text"],
+input[type="email"],
+select,
+button {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    padding: 10px 12px;
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: #fff;
+    color: #2d3748;
+}
+
+
+.radio-group-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.radio-label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: normal;
+    font-size: 14px;
+    cursor: pointer;
+    color: #4a5568;
+    margin-bottom: 0;
+}
+
+.radio-label input[type="radio"] {
+    margin: 0;
+    cursor: pointer;
+}
+
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin: 0;
+    cursor: pointer;
+}
+
+.checkbox-container label {
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+
+button[type="submit"] {
+    padding: 12px 16px;
+    background-color: #3182ce;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Comic Sans MS', sans-serif;
+    transition: background-color 0.2s ease;
+    margin-top: 8px;
+}
+
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus {
+    border-color: cyan;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.15);
+}
+
+button[type="submit"]:hover {
+    background-color: blue;
+    cursor: pointer;
+}
